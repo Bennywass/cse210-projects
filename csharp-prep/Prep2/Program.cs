@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep2 World!");
+        Console.Write("What did you get on the recent test? ");
+        string numberGrade = Console.ReadLine();
+        int number = int.Parse(numberGrade);
     }
 }
